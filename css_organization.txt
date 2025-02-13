@@ -1,0 +1,384 @@
+Order of HTML Elements and Properties in .css Files
+(adapted from https://www.freecodecamp.org/news/html-cheat-sheet-html-elements-list-reference/)
+
+ELEMENTS
+
+<html>
+<head>
+<body>
+<section> 
+<div>
+<span>
+<header>
+<footer>
+
+<main>
+<article>
+<section>
+<aside>
+
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+<p>
+
+<i> <em>
+<b> <strong>
+<sub>
+<sup>
+<small>
+<del>
+<ins>
+<blockquote>
+<q>
+<cite>
+<address>
+<abbr>
+<code>
+<mark>
+
+<br/>
+<hr/>
+
+<img/>
+<audio>
+<video>
+<figure>
+<figcaption>
+
+<a>
+<nav>
+
+<ol>
+<ul>
+<li>
+
+<form>
+<textarea>
+<select>
+<option>
+<fieldset>
+<label>
+<input>
+<button>
+
+<table>
+<thead>
+<tbody>
+<tfoot>
+<tr>
+<td>
+<th>
+
+<time>
+<meter>
+<progress>
+<dialog>
+
+By Class (.)
+By ID (#)
+Media query (@)
+
+
+PROPERTIES 
+
+### Pseudo-Element Content
+
+content: 
+
+
+### Position
+
+position: 
+    top: 
+    left: 
+    bottom: 
+    right: 
+float: 
+display: 
+    flex-direction: 
+    flex-wrap: 
+    justify-content: 
+      - flex-start
+      - center
+      - flex-end
+      - space-between
+      - space-around
+      - space-evenly
+    align-items: 
+      - stretch
+      - flex-start
+      - center
+      - flex-end
+      - baseline
+
+    grid-column: 
+    grid-template-columns:
+    row-gap: 
+object-fit: 
+clip: 
+    clip-path: 
+
+visibility: 
+z-index: 
+
+
+### Dimensions
+
+width: 
+    min-width: 
+    max-width: 
+height: 
+    min-height: 
+    max-height: 
+aspect-ratio: 
+
+
+### Box-Model
+
+padding: 
+border: 
+    border-radius:
+    border-collapse: 
+outline: 
+box-sizing: 
+margin: 
+
+gap: 
+
+
+### Appearance
+
+background: 
+background-color: 
+box-shadow: 
+
+filter: 
+
+
+### Font
+
+font-family: 
+font-size: 
+font-weight: 
+color: 
+
+text-align: 
+text-decoration: 
+text-indent: 
+text-shadow: 
+text-transform: 
+
+letter-spacing: 
+line-height: 
+
+white-space: 
+word-wrap: 
+word-break: 
+user-select: 
+
+list-style: 
+
+
+### Transform 
+
+transform: 
+transition: 
+animate: 
+
+
+### Miscellaneous
+
+overflow: 
+opacity: 
+cursor: 
+
+
+
+
+##### TBD: the below is better convention but still needs to be sorted properly
+
+### Position
+
+position:
+  top:
+  right:
+  bottom:
+  left:
+z-index:
+display:
+    flex-direction: 
+    flex-wrap: 
+    justify-content: 
+    align-items: 
+
+    grid-column: 
+    grid-template-columns:
+    row-gap: 
+float:
+object-fit: 
+
+### Dimensions
+
+width:
+height:
+max-width:
+max-height:
+min-width:
+min-height:
+aspect-ratio: 
+
+### Box Model
+
+padding:
+  padding-top:
+  padding-right:
+  padding-bottom:
+  padding-left:
+
+border:
+border-collapse:
+  border-top:
+  border-right:
+  border-bottom:
+  border-left:
+border-color:
+border-image:
+  border-top-color:
+  border-right-color:
+  border-bottom-color:
+  border-left-color:
+border-spacing:
+border-style:
+  border-top-style:
+  border-right-style:
+  border-bottom-style:
+  border-left-style:
+border-width:
+  border-top-width:
+  border-right-width:
+  border-bottom-width:
+  border-left-width:
+border-radius:
+  border-top-right-radius:
+  border-bottom-right-radius:
+  border-bottom-left-radius:
+  border-top-left-radius:
+  border-radius-topright:
+  border-radius-bottomright:
+  border-radius-bottomleft:
+  border-radius-topleft:
+
+margin:
+  margin-top:
+  margin-right:
+  margin-bottom:
+  margin-left:
+  margin-collapse:
+    margin-top-collapse:
+    margin-right-collapse:
+    margin-bottom-collapse:
+    margin-left-collapse:
+
+clip:
+  clip-path:
+
+clear:
+
+### Text
+
+font:
+font-family:
+font-size:
+font-smoothing:
+osx-font-smoothing:
+font-style:
+font-weight:
+hyphens:
+src:
+line-height:
+letter-spacing:
+word-spacing:
+color:
+text-align:
+text-decoration:
+text-indent:
+text-overflow:
+text-rendering:
+text-size-adjust:
+text-shadow:
+text-transform:
+word-break:
+word-wrap:
+white-space:
+vertical-align:
+list-style:
+list-style-type:
+list-style-position:
+list-style-image:
+pointer-events:
+cursor:
+
+### Appearance
+
+background:
+background-attachment:
+background-color:
+background-image:
+background-position:
+background-repeat:
+background-size:
+
+content:
+quotes:
+outline:
+outline-offset:
+opacity:
+filter:
+visibility:
+size:
+zoom:
+transform-origin: 
+transform:
+box-align:
+box-flex:
+box-orient:
+box-pack:
+box-shadow:
+box-sizing:
+table-layout:
+animation-name:
+animation:
+animation-delay:
+animation-duration:
+animation-iteration-count:
+animation-play-state:
+animation-timing-function:
+animation-fill-mode:
+transition:
+transition-delay:
+transition-duration:
+transition-property:
+transition-timing-function:
+background-clip:
+backface-visibility:
+resize:
+appearance:
+user-select:
+interpolation-mode:
+direction:
+marks:
+page:
+set-link-source:
+unicode-bidi:
+speak:
+
+### Miscellaneous
+
+overflow:
+  overflow-x:
+  overflow-y:
