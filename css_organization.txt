@@ -94,37 +94,73 @@ content:
 ### Position
 
 position: 
-    top: 
-    left: 
-    bottom: 
-    right: 
-float: 
-display: 
-    flex-direction: 
-    flex-wrap: 
-    justify-content: 
-      - flex-start
-      - center
-      - flex-end
-      - space-between
-      - space-around
-      - space-evenly
-    align-items: 
-      - stretch
-      - flex-start
-      - center
-      - flex-end
-      - baseline
+  top: 
+  left: 
+  bottom: 
+  right: 
 
-    grid-column: 
-    grid-template-columns:
-    row-gap: 
+float: 
+
+grid-column: 
+grid-template-columns:
+
 object-fit: 
 clip: 
     clip-path: 
 
 visibility: 
 z-index: 
+
+#### Flex container
+
+  display: 
+
+  flex-flow: /* shorthand for flex-direction + flex-wrap */
+    flex-direction: /* Changes the container's primary axis */
+      - row 
+      - column
+    flex-wrap: 
+
+  justify-content: /* Rearranges content on the primary axis */
+    - flex-start
+    - center
+    - flex-end
+    - space-between
+    - space-around
+    - space-evenly
+  align-items: /* Rearranges content on the cross axis */
+    - stretch
+    - flex-start
+    - center
+    - flex-end
+    - baseline
+  align-content: /* Rearranges a block of multi-line content on the cross axis */
+    - flex-start
+    - center
+    - flex-end
+    - space-between
+    - space-around
+    - space-evenly
+
+  gap: /* shorthand for row-gap + column-gap */
+    row-gap:
+    column-gap:
+
+#### Flex items
+
+  order: /* controls order of items within flex container */
+
+  flex: /* shortand for flex-grow + flex-shrink + flex-basis */
+    flex-grow:
+    flex-shrink:
+    flex-basis:
+
+  align-self: /* Rearranges individual child on the cross axis */
+    - stretch
+    - flex-start
+    - center
+    - flex-end
+    - baseline
 
 
 ### Dimensions
